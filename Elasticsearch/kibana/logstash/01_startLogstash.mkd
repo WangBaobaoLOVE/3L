@@ -1,0 +1,48 @@
+# logstash
+
+## Directory Layout(文件目录布局)
+
+|type|description|default location|setting|
+|:--:|:--:|:--:|:--:|
+|home|Home directory of the Logstash installation.|/usr/share/logstash||
+|bin|Binary scripts including logstash to start Logstash and logstash-plugin to install plugins|/usr/share/logstash/bin||
+
+## 错误/errors
+
+### WARNING: Could not find logstash.yml which is typically located in $LS_HOME/config or /etc/logstash.
+
+1. sudo ln -s /etc/logstash /usr/share/logstash/config
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
